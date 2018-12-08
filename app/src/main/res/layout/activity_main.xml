@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "#7c474d">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:text="Cartoon David" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="14sp"
+        android:text="Value: More than the original" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="14sp"
+        android:text="Rating:⭐⭐⭐⭐" />
+
+    <ImageView
+        android:id="@+id/cartoon_view"
+        android:layout_width="312dp"
+        android:layout_height="297dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/cartoon_david" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartoon_view"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="0dp"
+        android:text="Info:This lost soul is a cartoon created by Mµ§hrððm ßêåñ. The sourcery used to bring him to life is an ancient and unknown form. He is a clone of the original soul."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Power: 70/100"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background= "#4a1a96">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:textSize="24sp"
+                android:textColor="#fff000"
+                android:text="Spooky Skeleton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textSize="14sp"
+                android:textColor="#fff000"
+                android:text="Value: Calcium Supplements" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textSize="14sp"
+                android:textColor="#fff000"
+                android:text="Rating:⭐⭐⭐" />
+
+            <ImageView
+                android:id="@+id/bone_view"
+                android:layout_width="312dp"
+                android:layout_height="297dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="24dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bone_view"
+                android:layout_marginTop="30dp"
+                android:text="Info:The spooky soldiers of the skeleton king. They will fight to the last bone"
+                android:textColor="#fff000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff000"
+                android:text="Power: 50/100"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </TableLayout>
+</ScrollView>
